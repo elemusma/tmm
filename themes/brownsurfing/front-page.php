@@ -232,7 +232,8 @@ if( $gallery ):
     echo '<div class="position-relative">';
     
     echo wp_get_attachment_image($image['id'], 'full','',[
-        'class'=>'w-100 img-portfolio',
+        'class'=>'w-100',
+        'style'=>'max-width:100%;height:auto;',
         'aria-label'=>$image['alt']
         ] );
 
