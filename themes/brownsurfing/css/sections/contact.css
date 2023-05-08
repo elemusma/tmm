@@ -1,0 +1,38 @@
+input.gform_button.button {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  border-radius: 5px;
+  padding: 15px 45px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  max-width: 250px;
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+  box-shadow: none !important;
+}
+
+input.gform_button.button:hover {
+  background-color: var(--accent-primary-hover);
+  border-color: var(--accent-primary-hover);
+}
+
+input,
+textarea {
+  border: none;
+}
+
+.gfield {
+  text-align: left;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline-color: var(--accent-primary);
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: 900;
+}

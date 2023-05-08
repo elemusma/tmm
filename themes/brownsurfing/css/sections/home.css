@@ -1,0 +1,64 @@
+/* start of hero */
+@media only screen and (max-width:767px) {
+    .hero-content {
+        padding: 40px 0 40px 50px !important;
+    }
+}
+
+/* end of hero */
+/* start of objectives */
+.columns-repeater-svg-icon svg {
+    height: 23px;
+}
+
+@media only screen and (min-width:1200px) {
+    .objectives-content {
+        padding: 0 99px;
+    }
+
+    .columns-repeater-bg {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .objectives-top-right-img {
+        position: absolute;
+        right: 0;
+    }
+}
+
+/* end of objectives */
+
+/* start of practical skills */
+.practical-skills-columns-svg-icon svg {
+    height: 84px;
+}
+
+.practical-skills-top-left-img {
+    position: absolute;
+    left: 0;
+}
+
+.practical-skills-bottom-right-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    bottom: -160px;
+}
+
+.text-link {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+.text-link:hover,
+.text-link:focus {
+    text-decoration: none !important;
+}
+
+span.text-link-svg-icon svg {
+    width: 12px;
+}
+
+/* end of practical skills */

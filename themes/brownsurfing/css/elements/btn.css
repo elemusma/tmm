@@ -1,0 +1,15 @@
+.btn-main {
+    background: var(--accent-primary);
+    padding: 15px 45px;
+    transition: all .25s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+    background: var(--accent-primary-hover);
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.text-accent {
+  color: var(--accent-primary);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline !important;
+}
+
+.text-accent-secondary {
+  color: var(--accent-secondary);
+}
+
+a.text-link .text-link-content {
+  border: 2px solid white;
+  padding: 10px;
+  margin-right: 6px;
+  transition: all .25s ease-in-out;
+}
+
+a.text-link:hover .text-link-content,
+a.text-link:focus .text-link-content {
+  border-color: var(--accent-primary);
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
